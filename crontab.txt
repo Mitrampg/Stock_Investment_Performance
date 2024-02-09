@@ -1,0 +1,4 @@
+10 * * * * echo "Updated journal.py at $(date)" >> /Users/mitrampg/Belajar/IPO_Project/logfile.log && /Users/mitrampg/.pyenv/shims/python /Users/mitrampg/Belajar/IPO_Project/journal.py >> /Users/mitrampg/Belajar/IPO_Project/logfile.log 2>&1
+15 16 * * * echo "Updated performance.py at $(date)" >> /Users/mitrampg/Belajar/IPO_Project/logfile_2.log && /Users/mitrampg/.pyenv/shims/python /Users/mitrampg/Belajar/IPO_Project/performance.py >> /Users/mitrampg/Belajar/IPO_Project/logfil$
+10 16 * * * echo "Updated sector.py at $(date)" >> /Users/mitrampg/Belajar/IPO_Project/logfile.log && /Users/mitrampg/.pyenv/shims/python /Users/mitrampg/Belajar/IPO_Project/sector.py >> /Users/mitrampg/Belajar/IPO_Project/logfile.log 2>&1
+11 16 * * * echo "Updated hist_performance.py at $(date)" >> /Users/mitrampg/Belajar/IPO_Project/logfile.log && /Users/mitrampg/.pyenv/shims/python /Users/mitrampg/Belajar/IPO_Project/hist_performance.py >> /Users/mitrampg/Belajar/IPO_Projec$
